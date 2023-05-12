@@ -27,7 +27,7 @@ import {User,Lock} from '@element-plus/icons-vue'
       </div>
         <el-row style="margin-top: 5px">
           <el-col :span="12" style="text-align: left" >
-            <el-checkbox v-model="checked1" label="记住cle密码" size="large" />
+            <el-checkbox v-model="checked1" label="记住密码" size="large" />
           </el-col>
           <el-col :span="12" style="text-align: right" >
             <el-link :underline="false">忘记密码？</el-link>
