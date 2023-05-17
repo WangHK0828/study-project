@@ -74,7 +74,7 @@ public class AuthorizeServiceImpl implements AuthorizeService {
             return null;
         } catch (MailException e) {
             e.printStackTrace();
-            return "邮件发送失败，请坚持邮件地址是否有效";
+            return "邮件发送失败，请检查邮件地址是否有效";
         }
     }
 
