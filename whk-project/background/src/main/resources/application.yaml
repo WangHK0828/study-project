@@ -15,6 +15,7 @@ spring:
         smtp:
           socketFactory:
             class: javax.net.ssl.SSLSocketFactory
+
   data:
     redis:
       database: 0
